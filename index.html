@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - DevFolio Bootstrap Template</title>
+  <title>Nishant Vibhute</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -57,13 +57,13 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="#hero" class="active">Home<br></a></li>
-          <li><a href="#about">About</a></li>
+          
           <li><a href="#services">Services</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li class="dropdown"><a href="#about"><span>About</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <li><a href="#about">About Me</a></li>
+              <!-- <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
                   <li><a href="#">Deep Dropdown 1</a></li>
                   <li><a href="#">Deep Dropdown 2</a></li>
@@ -71,10 +71,10 @@
                   <li><a href="#">Deep Dropdown 4</a></li>
                   <li><a href="#">Deep Dropdown 5</a></li>
                 </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
+              </li> -->
+              <li><a href="#Skills">Skills</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#achievements">Certification</a></li>
             </ul>
           </li>
           <li><a href="#contact">Contact</a></li>
@@ -99,6 +99,171 @@
 
     </section><!-- /Hero Section -->
 
+<!-- Services Section -->
+<section id="services" class="py-5" style="background-color: #f9f9f9;">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title text-center mb-5">
+      <h2>Services Offered</h2>
+      <p>I help individuals and businesses by delivering top-notch solutions with speed and precision.</p>
+    </div>
+
+    <div class="row g-4">
+      <!-- Service 1 -->
+      <div class="col-md-6 col-lg-4 text-center">
+        <div class="icon-box p-4 bg-white shadow rounded">
+          <i class="bi bi-code-slash fs-2 text-primary mb-3"></i>
+          <h5 class="fw-bold">Full Stack Web Development</h5>
+          <p>End-to-end custom web apps using modern frameworks and cloud deployment.</p>
+        </div>
+      </div>
+
+      <!-- Service 2 -->
+      <div class="col-md-6 col-lg-4 text-center">
+        <div class="icon-box p-4 bg-white shadow rounded">
+          <i class="bi bi-cpu-fill fs-2 text-primary mb-3"></i>
+          <h5 class="fw-bold">AI / ML Consulting</h5>
+          <p>Integrating intelligent automation and data-driven features into your workflow.</p>
+        </div>
+      </div>
+
+      <!-- Service 3 -->
+      <div class="col-md-6 col-lg-4 text-center">
+        <div class="icon-box p-4 bg-white shadow rounded">
+          <i class="bi bi-gear-wide-connected fs-2 text-primary mb-3"></i>
+          <h5 class="fw-bold">Process Automation</h5>
+          <p>Streamlining operations through custom scripts, bots, and automation pipelines.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="portfolio" class="portfolio section">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Portfolio</h2>
+    <p>Explore a selection of my professional work across AI, FinTech, and Data Science domains.</p>
+  </div>
+
+  <div class="container">
+    <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+
+
+      <div class="row gy-4 mt-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+        <!-- VIA -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ai">
+          <img src="assets/img/projects/via-thumb.png" class="img-fluid" alt="VIA">
+          <div class="portfolio-info" onclick="openProjectModal('via')">
+            <h4>VIA</h4>
+            <p>AI Assistant for Outlook, Teams, and Planner</p>
+            <a  class="details-link" ><i class="bi bi-link-45deg"></i></a>
+          </div>
+        </div>
+
+        <!-- RiskSpan -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-data">
+          <img src="assets/img/projects/riskspan-thumb.png" class="img-fluid" alt="RiskSpan">
+          <div class="portfolio-info" onclick="openProjectModal('riskspan')">
+            <h4>RiskSpan</h4>
+            <p>Mortgage analytics and risk modeling</p>
+            <a  class="details-link" ><i class="bi bi-link-45deg"></i></a>
+          </div>
+        </div>
+
+        <!-- Magic Investing -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-fintech">
+          <img src="assets/img/projects/magic-thumb.png" class="img-fluid" alt="Magic Investing">
+          <div class="portfolio-info" onclick="openProjectModal('magic')">
+            <h4>Magic Investing</h4>
+            <p>Automated stock alerts and portfolio intelligence</p>
+            <a  class="details-link" ><i class="bi bi-link-45deg"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Project Modal -->
+
+
+
+
+
+
+  
+    
+
+<!-- Famous Quotes Section -->
+<section id="quotes" class="py-5" style="background-color: #1e1e2f; color: #fff;">
+  <div class="container" data-aos="fade-up">
+
+    <div class="swiper init-swiper position-relative" style="padding-bottom: 50px;">
+      <script type="application/json" class="swiper-config">
+        {
+          "loop": true,
+          "speed": 600,
+          "autoplay": {
+            "delay": 5000
+          },
+          "slidesPerView": 1,
+          "pagination": {
+            "el": ".swiper-pagination",
+            "type": "bullets",
+            "clickable": true
+          }
+        }
+      </script>
+
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="text-center px-4">
+            <p class="fs-4 fst-italic mb-1">“Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.”</p>
+            <div class="mt-3 text-white-50" style="font-size: 0.95rem;">&bull; Albert Einstein</div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="text-center px-4">
+            <p class="fs-4 fst-italic mb-1">“The only way to do great work is to love what you do.”</p>
+            <div class="mt-3 text-white-50" style="font-size: 0.95rem;">&bull; Steve Jobs</div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="text-center px-4">
+            <p class="fs-4 fst-italic mb-1">“It always seems impossible until it’s done.”</p>
+            <div class="mt-3 text-white-50" style="font-size: 0.95rem;">&bull; Nelson Mandela</div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="text-center px-4">
+            <p class="fs-4 fst-italic mb-1">“Dream, dream, dream. Dreams transform into thoughts and thoughts result in action.”</p>
+            <div class="mt-3 text-white-50" style="font-size: 0.95rem;">&bull; Dr. A.P.J. Abdul Kalam</div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="text-center px-4">
+            <p class="fs-4 fst-italic mb-1">“When something is important enough, you do it even if the odds are not in your favor.”</p>
+            <div class="mt-3 text-white-50" style="font-size: 0.95rem;">&bull; Elon Musk</div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Bullets pagination fixed at bottom -->
+      <div class="swiper-pagination position-absolute start-50 translate-middle-x" style="bottom: 0;"></div>
+    </div>
+
+  </div>
+</section>
     <!-- About Section -->
     <section id="about" class="about section">
 
@@ -184,7 +349,7 @@
 
   
     <!-- Services Section -->
-    <section id="services" class="services section">
+    <section id="Skills" class="Skills section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -295,531 +460,310 @@
 
     </section><!-- /Services Section -->
 
-      <!-- Resume Section -->
-      <section id="resume" class="resume section">
+ <!-- Professional Experience Section -->
+<section id="experience" class="resume section">
 
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Resume</h2>
-          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-        </div><!-- End Section Title -->
-  
-        <div class="container">
-  
-          <div class="row">
-  
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-              <h3 class="resume-title">Sumary</h3>
-  
-              <div class="resume-item pb-0">
-                <h4>Brandon Johnson</h4>
-                <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
-                <ul>
-                  <li>Portland par 127,Orlando, FL</li>
-                  <li>(123) 456-7891</li>
-                  <li>alice.barkley@example.com</li>
-                </ul>
-              </div><!-- Edn Resume Item -->
-  
-              <h3 class="resume-title">Education</h3>
-              <div class="resume-item">
-                <h4>Master of Fine Arts &amp; Graphic Design</h4>
-                <h5>2015 - 2016</h5>
-                <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-                <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
-              </div><!-- Edn Resume Item -->
-  
-              <div class="resume-item">
-                <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-                <h5>2010 - 2014</h5>
-                <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-                <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
-              </div><!-- Edn Resume Item -->
-  
-            </div>
-  
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-              <h3 class="resume-title">Professional Experience</h3>
-              <div class="resume-item">
-                <h4>Senior graphic design specialist</h4>
-                <h5>2019 - Present</h5>
-                <p><em>Experion, New York, NY </em></p>
-                <ul>
-                  <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                  <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                  <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                  <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
-                </ul>
-              </div><!-- Edn Resume Item -->
-  
-              <div class="resume-item">
-                <h4>Graphic design specialist</h4>
-                <h5>2017 - 2018</h5>
-                <p><em>Stepping Stone Advertising, New York, NY</em></p>
-                <ul>
-                  <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-                  <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                  <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                  <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
-                </ul>
-              </div><!-- Edn Resume Item -->
-  
-            </div>
-  
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Professional Experience</h2>
+    <p>Blending leadership, hands-on development, and education to drive impactful digital solutions and mentor future innovators.</p>
+  </div>
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="resume-item">
+          <h4>Project Manager</h4>
+          <h5>Apr 2022 – Present</h5>
+          <p><em>Web Access, Mumbai</em></p>
+          <ul>
+            <li>Led multiple client projects, focusing on timelines, resource allocation, and quality deliverables.</li>
+            <li>Designed performance dashboards using SQL & Tableau for executive insights.</li>
+            <li>Improved team collaboration through agile processes and mentorship.</li>
+          </ul>
+        </div>
+
+        <div class="resume-item">
+          <h4>Team Lead / Senior Software Engineer</h4>
+          <h5>Sep 2014 – Mar 2022</h5>
+          <p><em>Web Access, Mumbai</em></p>
+          <ul>
+            <li>Progressed from Trainee to Senior Engineer, managing full-stack development projects.</li>
+            <li>Mentored junior developers and introduced process improvements for faster deployment.</li>
+          </ul>
+        </div>
+
+        <div class="resume-item">
+          <h4>Freelancer – Full Stack Developer</h4>
+          <h5>Jan 2016 – Present</h5>
+          <p><em>Remote / Project-based</em></p>
+          <ul>
+            <li>Developed web and mobile apps using modern stacks with fully responsive design.</li>
+            <li>Deployed scalable applications on AWS and GCP with CI/CD pipelines.</li>
+          </ul>
+        </div>
+
+        <div class="resume-item">
+          <h4>Visiting Lecturer</h4>
+          <h5>Jan 2015 – Present</h5>
+          <p><em>University of Mumbai</em></p>
+          <ul>
+            <li>Delivered lectures on Data Science, Java, Python, Microcontrollers, and Android Development.</li>
+            <li>Bridged theory with real-world practice to engage and empower students.</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+    <!-- Achievements / Certifications Section -->
+<section id="achievements" class="py-5" style="background-color: #1e1e2f; color: #fff;">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title text-center mb-5">
+      <h2 class="text-white">Achievements & Certifications</h2>
+      <p class="text-white-50">A few highlights of my professional milestones and certifications.</p>
+    </div>
+
+    <div class="row g-4 justify-content-center">
+      <!-- Certificate 1 -->
+      <div class="col-md-4">
+        <div class="card bg-dark border-0 shadow">
+          
+          <div class="card-body">
+            <h5 class="card-title text-white">Google Cloud Certified</h5>
+            <p class="card-text text-white-50">Completed the Google Cloud Engineer Program - March 2024</p>
           </div>
-  
         </div>
-  
-      </section><!-- /Resume Section -->
-  
-
-
-    <!-- Stats Section -->
-    <section id="stats" class="stats section accent-background">
-
-      <img src="assets/img/stats-bg.jpg" alt="" data-aos="fade-in">
-
-      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="0" class="purecounter">232</span>
-              <p>Clients</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="0" class="purecounter">521</span>
-              <p>Projects</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="0" class="purecounter">1453</span>
-              <p>Hours Of Support</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="0" class="purecounter">32</span>
-              <p>Awards</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-        </div>
-
       </div>
 
-    </section><!-- /Stats Section -->
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-product">Product</li>
-            <li data-filter=".filter-branding">Branding</li>
-            <li data-filter=".filter-books">Books</li>
-          </ul><!-- End Portfolio Filters -->
-
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Product 1</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/product-1.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Branding 1</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/branding-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Books 1</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/books-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/app-2.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Product 2</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/product-2.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Branding 2</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/branding-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <img src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Books 2</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/books-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/app-3.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Product 3</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/product-3.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Branding 3</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/branding-3.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Books 3</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/books-3.jpg" title="Branding 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-          </div><!-- End Portfolio Container -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Portfolio Section -->
-
-  
-    
-
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section accent-background">
-
-      <img src="assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              }
-            }
-          </script>
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
+      <!-- Certificate 2 -->
+      <div class="col-md-4">
+        <div class="card bg-dark border-0 shadow">
+          
+          <div class="card-body">
+            <h5 class="card-title text-white">Coursera ML Certificate</h5>
+            <p class="card-text text-white-50">Andrew Ng's ML Course - Certified in July 2023</p>
           </div>
-          <div class="swiper-pagination"></div>
         </div>
-
       </div>
 
-    </section><!-- /Testimonials Section -->
+      <!-- Certificate 3 -->
+      <div class="col-md-4">
+        <div class="card bg-dark border-0 shadow">
+          
+          <div class="card-body">
+            <h5 class="card-title text-white">Hackathon Winner</h5>
+            <p class="card-text text-white-50">1st Prize - AI Innovation Challenge 2023</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
+      <!-- Book Meeting CTA -->
+      <section id="book-meeting" class="book-meeting section-bg" style="padding: 60px 0; background-color: #f9f9f9;">
+        <div class="container" data-aos="fade-up">
+    
+          <div class="section-title">
+            <h2>Let's Connect</h2>
+            <p>Interested in working together, scheduling a consultation, or just having a chat? Book a meeting or reach out through the form below.</p>
+          </div>
+    
+          <div class="text-center">
+            <a href="https://calendly.com/nishantvibhute-info/30min" target="_blank" class="btn btn-primary" style="font-size: 18px; padding: 12px 30px; border-radius: 50px; background-color: #2c3e50; border: none;">
+              <i class="bi bi-calendar-event" style="margin-right: 10px;"></i> Book a Meeting via Calendly
+            </a>
+          </div>
+    
+          <p class="text-center mt-3" style="font-size: 16px; color: #555;">
+            <em>Can’t find a suitable time? Feel free to send a message using the form below.</em>
+          </p>
+        </div>
+      </section>
+    
+      <!-- Contact Info + Form -->
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
-          <div class="row gy-5">
-        
-            <div class="col-lg-4">
-              <div class="info-item d-flex align-items-center">
-                <i class="bi bi-geo-alt flex-shrink-0"></i>
-                <div>
-                  <h3>Address</h3>
-                  <p>Mumbai, Maharashtra, India</p>
-                </div>
+    
+     
+        <!-- Contact Form -->
+        <div class="form-wrap" style="margin-top: 40px;">
+          <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="300">
+            <div class="row gy-4">
+    
+              <div class="col-md-6">
+                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
               </div>
-            </div><!-- End Info Item -->
-        
-            <div class="col-lg-4">
-              <div class="info-item d-flex align-items-center">
-                <i class="bi bi-telephone flex-shrink-0"></i>
-                <div>
-                  <h3>Call</h3>
-                  <p>+91 XXXXX XXXXX</p>
-                </div>
+    
+              <div class="col-md-6">
+                <input type="email" name="email" class="form-control" placeholder="Your Email" required>
               </div>
-            </div><!-- End Info Item -->
-        
-            <div class="col-lg-4">
-              <div class="info-item d-flex align-items-center">
-                <i class="bi bi-envelope flex-shrink-0"></i>
-                <div>
-                  <h3>Email</h3>
-                  <p><a href="mailto:info@nishantvibhute.in">info@nishantvibhute.in</a></p>
-                </div>
+    
+              <div class="col-md-12">
+                <input type="text" name="subject" class="form-control" placeholder="Subject" required>
               </div>
-            </div><!-- End Info Item -->
-        
-            <div class="col-lg-4">
-              <div class="info-item d-flex align-items-center">
-                <i class="bi bi-instagram flex-shrink-0"></i>
-                <div>
-                  <h3>Instagram</h3>
-                  <p><a href="https://instagram.com/nishantvibhute" target="_blank">@nishantvibhute</a></p>
-                </div>
+    
+              <div class="col-md-12">
+                <textarea name="message" class="form-control" rows="6" placeholder="Message" required></textarea>
               </div>
-            </div><!-- End Info Item -->
-        
-            <div class="col-lg-4">
-              <div class="info-item d-flex align-items-center">
-                <i class="bi bi-twitter-x flex-shrink-0"></i> <!-- Use Bootstrap Icons 1.11+ -->
-                <div>
-                  <h3>X (Twitter)</h3>
-                  <p><a href="https://x.com/nishantvibhute" target="_blank">@nishantvibhute</a></p>
-                </div>
+    
+              <div class="col-md-12 text-center">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <button type="submit">Send Message</button>
               </div>
-            </div><!-- End Info Item -->
-        
-            <div class="col-lg-4">
-              <div class="info-item d-flex align-items-center">
-                <i class="bi bi-facebook flex-shrink-0"></i>
-                <div>
-                  <h3>Facebook</h3>
-                  <p><a href="https://facebook.com/nishantvibhute" target="_blank">nishantvibhute</a></p>
-                </div>
-              </div>
-            </div><!-- End Info Item -->
-        
+    
+            </div>
+          </form>
+        </div>
+    
+      </div>
+    </section>
+    
+    <div class="modal fade" id="projectModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content bg-white text-dark">
+          <div class="modal-header border-0">
+            <h5 class="modal-title" id="modalTitle">Project Title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+    
+            <!-- Swiper Slider -->
+            <div class="swiper mySwiper mb-4">
+              <div class="swiper-wrapper" id="modalImages"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+    
+            <!-- Project Details -->
+            <p id="modalDescription"></p>
+            <ul id="modalFeatures"></ul>
+    
           </div>
         </div>
-        
-
-        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="300">
-          <div class="row gy-4">
-
-            <div class="col-md-6">
-              <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-            </div>
-
-            <div class="col-md-6 ">
-              <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-            </div>
-
-            <div class="col-md-12">
-              <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-            </div>
-
-            <div class="col-md-12">
-              <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-            </div>
-
-            <div class="col-md-12 text-center">
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
-
-              <button type="submit">Send Message</button>
-            </div>
-
-          </div>
-        </form><!-- End Contact Form -->
-
-      </div>
-
-    </section><!-- /Contact Section -->
-
-  </main>
-
-  <footer id="footer" class="footer accent-background">
-
-    <div class="container">
-      <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">DevFolio</strong> <span>All Rights Reserved</span></p>
-      </div>
-      <div class="social-links d-flex justify-content-center">
-        <a href=""><i class="bi bi-twitter-x"></i></a>
-        <a href=""><i class="bi bi-facebook"></i></a>
-        <a href=""><i class="bi bi-instagram"></i></a>
-        <a href=""><i class="bi bi-linkedin"></i></a>
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
       </div>
     </div>
 
+  </main>
+
+  
+  <script>
+    const projectData = {
+      via: {
+        title: "VIA – AI Productivity Assistant",
+        description: "VIA integrates seamlessly with Outlook, Teams, and Planner to extract tasks, summarize threads, and proactively nudge users with reminders. Designed for organizations.",
+        images: ["via1.png", "via2.png", "via3.png"],
+        features: [
+          "Microsoft Graph API integration",
+          "Task extraction and smart nudges",
+          "Summarization with LLMs"
+        ]
+      },
+      riskspan: {
+        title: "RiskSpan – Mortgage Analytics Platform",
+        description: "RiskSpan enables data-driven credit risk modeling for mortgage-backed securities and capital markets through large-scale pipelines and interactive dashboards.",
+        images: ["riskspan1.png", "riskspan2.png", "riskspan3.png"],
+        features: [
+          "End-to-end mortgage lifecycle modeling",
+          "ETL pipelines using Spark",
+          "Visual analytics using Tableau/PowerBI"
+        ]
+      },
+      magic: {
+        title: "Magic Investing – AI Trading Assistant",
+        description: "Magic Investing offers smart alerts, stock scoring, sentiment analysis, and personalized investment recommendations using AI, APIs, and custom logic.",
+        images: ["magic1.png", "magic2.png", "magic3.png"],
+        features: [
+          "Stock alerts via ML + sentiment scores",
+          "Custom portfolio insights",
+          "Integrated with NSE & BSE APIs"
+        ]
+      }
+    };
+  
+    function openProjectModal(projectKey) {
+      const project = projectData[projectKey];
+  
+      document.getElementById('modalTitle').textContent = project.title;
+      document.getElementById('modalDescription').textContent = project.description;
+  
+      // Set images
+      const imageContainer = document.getElementById('modalImages');
+      imageContainer.innerHTML = '';
+      project.images.forEach(img =>
+        imageContainer.innerHTML += `<div class="swiper-slide"><img src="assets/img/projects/${img}" class="img-fluid" alt=""></div>`
+      );
+  
+      // Set features
+      const featureList = document.getElementById('modalFeatures');
+      featureList.innerHTML = '';
+      project.features.forEach(f =>
+        featureList.innerHTML += `<li>${f}</li>`
+      );
+  
+      new bootstrap.Modal(document.getElementById('projectModal')).show();
+      setTimeout(() => {
+        new Swiper('.mySwiper', {
+          loop: true,
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+        });
+      }, 200);
+    }
+  </script>
+
+
+  <footer id="footer" class="footer accent-background" style="background-color: #1a1a1a; color: #fff; padding: 40px 0;">
+
+    <div class="container">
+      <div class="row gy-4">
+  
+        <!-- Contact Info -->
+        <div class="col-lg-4 col-md-6">
+          <h5>Contact</h5>
+          <p><i class="bi bi-geo-alt-fill"></i> Mumbai, Maharashtra, India</p>
+          <p><i class="bi bi-telephone-fill"></i> +91 XXXXX XXXXX</p>
+          <p><i class="bi bi-envelope-fill"></i> <a href="mailto:info@nishantvibhute.in" style="color: #fff;">info@nishantvibhute.in</a></p>
+        </div>
+  
+        <!-- Social Links -->
+        <div class="col-lg-4 col-md-6 text-center">
+          <h5>Follow Me</h5>
+          <div class="social-links d-flex justify-content-center mt-2">
+            <a href="https://x.com/nishantvibhute" target="_blank"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://facebook.com/nishantvibhute" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://instagram.com/nishantvibhute" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://linkedin.com/in/nishantvibhute" target="_blank"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+  
+        <!-- Credits -->
+        <div class="col-lg-4 col-md-12 text-center">
+          <h5>Credits</h5>
+          <p>© <strong>Nishant Vibhute</strong> — All Rights Reserved</p>
+          
+        </div>
+  
+      </div>
+    </div>
+  
   </footer>
+  
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>

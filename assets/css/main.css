@@ -632,7 +632,7 @@ section,
 --------------------------------------------------------------*/
 .section-title {
   text-align: center;
-  padding-bottom: 60px;
+
   position: relative;
 }
 
@@ -1815,4 +1815,12 @@ section,
     .timeline-item::before {
       left: 3px;
     }
+  }
+
+
+  .portfolio-item img {
+    width: 100%;
+    height: 240px;           /* Uniform height for all thumbnails */
+    object-fit: cover;       /* Crops while keeping aspect ratio */
+    border-radius: 6px;      /* Optional: adds subtle rounding */
   }
